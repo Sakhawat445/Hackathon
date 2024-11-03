@@ -1,0 +1,26 @@
+@import"./scss/bootstrap";
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+#root {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+main {
+    flex: 1 0 auto;
+}
+
+.layout {
+    height: calc(100vh - 96px);
+    overflow: auto;
+}
+.card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
